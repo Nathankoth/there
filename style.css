@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f1f1f1;
+    font-family: Heebo,poppins, Arial, Helvetica, sans-serif;
+}
+
+.logo h2{
+    color: #e16c18;
+    letter-spacing: 0.05em;
+}
+.logo h2 span{
+    color: #ffffff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    
+}
+nav a{
+    padding: 0px 5px 0px 5px;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #e16c18;
+    transition: 500ms;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background: #22384f;
+    border-bottom: 4px solid #e16c18;
+    padding: 0px 50px 0px 50px;
+}
+main{
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    background-image:url(images/lappy3jpg.jpg) ;
+    height: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+main p{
+    width: 80%;
+}
+section{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #22384f;
+    height: 80px;
+}
+section p{
+    font-size: 16px;
+}
+section input{
+    padding: 5px;
+    margin-right: 2px;
+}
+section button{
+    font-family: poppins;
+    padding: 4px;
+    background-color: #e16c18;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+aside{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+aside h2{
+    font-size: 25px;
+    margin: 5px 0px 5px 0px;
+}
+aside p{
+    font-family: poppins;
+    font-size: 12px;
+}
+aside .html .htmlimg{
+    background-image: url(images/html5-logo-31813.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+aside .css .cssimg{
+    background-image: url(images/css1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+aside .graphics .graphicsimg{
+    background-image: url(images/graphics.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+}
+footer{
+    height: 80px;
+    background: #e16c18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
